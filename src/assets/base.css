@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1b1e23;
+  font-family: 'MTSText', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'MTSText';
+  src: url('fonts/MTSText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MTSText';
+  src: url('fonts/MTSText-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MTSText';
+  src: url('fonts/MTSText-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MTSText';
+  src: url('fonts/MTSText-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
